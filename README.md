@@ -1,4 +1,6 @@
-# 🏳️ makeitaflag 🏳️
-Makeitaflag in a nutshell in an open source website that takes an image inputted by a user and outputs it with a waving flag in .GIF format.
+# 🧭 Enhancify (WIP)
+Enhancify is an open-sorce AI image upscaling website which can increase the quality of your favourite images.
 # License
-Makeitaflag is under the [MIT Liscense](https://opensource.org/license/mit/)
+Enhancify is under the [MIT Liscense](https://opensource.org/license/mit/)
+
+Enhancify is still a developing project
