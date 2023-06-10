@@ -1,0 +1,91 @@
+
+body {
+    background-color: #1e1c1c;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    animation: fadeInUp .6s;
+}
+
+
+
+
+.container {
+   text-align: center;
+}
+  
+ 
+  .uploading {
+    margin: 15% auto;
+    padding: 30px;
+    height: 20px;
+  }
+
+  .import_files {
+  margin-top: 31%;
+  }
+
+  .btn {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .box {
+    text-align: center;
+    margin: 20px auto;
+    width: 800px;
+    height: 680px;
+    border: 2px dashed gray;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .my-form {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .btn_browse_files {
+    margin-top: 2%;
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 9px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .footer {
+    text-align: center;
+    margin: 1.4%;
+    font-size: 14px;
+  }
+
+  .header {
+    text-align: top;
+  }
+
+
+
+  @keyframes fadeInUp {
+    from {
+        transform: translate3d(0, 130px, 0)
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1
+    }
+  }

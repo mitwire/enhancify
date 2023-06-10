@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="assets/images/compass_1f9ed.png" />
+
+  <title> Enhancify </title>
+  <head>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header"><h1> 🧭 Enhancify - AI Image Upscaler 🧭</h1></div>
+
+      <div class="box">
+        <form class="my-form">
+          <div class="uploading">
+            <img src="assets/images/upload-3-xxl.png" alt="Upload Image" />
+          </div>
+          <div class="import_files">Import image files or drag & drop</div>
+          <input
+            class="btn_browse_files"
+            type="file"
+            id="fileElem"
+            multiple
+            accept="image/*"
+          />
+        </form>
+      </div>
+
+      <button class="btn" id="flagifyBtn"> Enhancify!</button>
+    </div>
+    <script type="module" src="firebase.js"></script>
+
+    <div class="footer">
+      <footer>
+        <i> Enhancify is an open-source project made by <a href="mitwire.com">mitwire</a>, find the GitHub repo <a href="https://github.com/mitwire/makeitaflag">here</a> </i>
+      </footer>
+    </div>
+  </body>
+</html>
